@@ -12,8 +12,12 @@ class MessageInput extends Component {
     return (
       <div className="box">
         <p className="control">
-          <input className="input" type="text" placeholder="Say something..."
-            onKeyPress={this.handleKeyPress.bind(this)} />
+          <input
+            className="input"
+            type="text"
+            placeholder="Say something..."
+            onKeyPress={this.handleKeyPress.bind(this)}
+          />
         </p>
       </div>
     );
